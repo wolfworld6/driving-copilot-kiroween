@@ -1,0 +1,52 @@
+{
+  "clip": "dashcam-urban-cc0.mp4",
+  "duration_s": 120.05,
+  "rules": "warning=cut-in/pedestrian-in-road/sudden-braking; watch=crossing-vehicle/sidewalk-pedestrian/approaching-oncoming; status<=1 per 60s window, silent otherwise; glare/cross-traffic-red/opposite-carriageway are not risks",
+  "counts": {
+    "warning": 0,
+    "status": 2,
+    "watch": 3
+  },
+  "entries": [
+    {
+      "t": 40,
+      "kind": "status",
+      "spoken": true,
+      "audio": "audio/status_t040.mp3",
+      "text": "前方路口有车横穿，右侧人行道有行人，注意观察",
+      "frame": "frame_009.jpg"
+    },
+    {
+      "t": 45,
+      "kind": "watch",
+      "spoken": false,
+      "audio": null,
+      "text": "观察：转弯进入主路，对向来车与横穿车辆同时出现。",
+      "frame": "frame_010.jpg"
+    },
+    {
+      "t": 55,
+      "kind": "watch",
+      "spoken": false,
+      "audio": null,
+      "text": "观察：弯道市区路，蓝车在前转弯，右侧远处有人行道行人。",
+      "frame": "frame_012.jpg"
+    },
+    {
+      "t": 85,
+      "kind": "status",
+      "spoken": true,
+      "audio": "audio/status_t085.mp3",
+      "text": "前方路口，右侧人行道有行人，减速慢行",
+      "frame": "frame_018.jpg"
+    },
+    {
+      "t": 90,
+      "kind": "watch",
+      "spoken": false,
+      "audio": null,
+      "text": "观察：信号灯路口，左转绿箭头，右侧人行道有行人，未进入车道，阳光强烈。",
+      "frame": "frame_019.jpg"
+    }
+  ]
+}

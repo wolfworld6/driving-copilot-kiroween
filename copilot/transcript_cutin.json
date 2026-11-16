@@ -1,0 +1,33 @@
+{
+  "clip": "cutin-van.mp4",
+  "duration_s": 44,
+  "rules": "warning=cut-in/pedestrian-in-road/sudden-braking; watch=crossing-vehicle/sidewalk-pedestrian/approaching-oncoming; status<=1 per 60s window, silent otherwise; glare/cross-traffic-red/opposite-carriageway are not risks",
+  "counts": {
+    "warning": 2,
+    "status": 0,
+    "watch": 0
+  },
+  "entries": [
+    {
+      "t": 10,
+      "kind": "warning",
+      "spoken": true,
+      "audio": "audio/warning_t010.mp3",
+      "text": "注意，右侧车辆加塞，保持车距",
+      "frame": "frame_003.jpg",
+      "merged_t": [
+        15,
+        20
+      ],
+      "detail": "t=10s 银色小客车从右侧加塞切入本车道。；t=15s 白厢式货车从右侧加塞切入本车道，银色小客车已在前方。；t=20s 白厢式货车完成加塞，在本车道正前方，车速 81。"
+    },
+    {
+      "t": 35,
+      "kind": "warning",
+      "spoken": true,
+      "audio": "audio/warning_t035.mp3",
+      "text": "注意，前方车辆急刹，保持车距",
+      "frame": "frame_008.jpg"
+    }
+  ]
+}
